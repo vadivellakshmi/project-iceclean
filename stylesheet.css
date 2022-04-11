@@ -4,10 +4,10 @@ html{
     padding: 0;
 }
 body{
-    width: 90%;
+  
     background-color: white;
   
-    margin: auto;
+   
 }
 
 * {
@@ -28,7 +28,7 @@ img{
 .circle{
     background-color: white;
     color: skyblue;
-    padding: 2px;
+    padding: 4px;
     border-radius: 50%;
 }
 
@@ -73,21 +73,32 @@ a:hover{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: skyblue;
+    
  
 }
 
 .main2img{
     background-image: url(image/footerbg1.jpg);
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: 0.6;
-    background-color: skyblue;
+ 
+    
  
 }
+
+
+
+
 
 .footer h6, p{
 
     color:skyblue; opacity: 0.7;
 }
+
+.footer h5{
+
+    font-size: smaller;
+}
+
