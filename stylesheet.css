@@ -1,0 +1,93 @@
+html{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 90%;
+    background-color: white;
+  
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.header{
+    background-image: url(image/bg1.jpg);
+    opacity: 0.6;    
+    background-position: center;
+    background-size: cover;
+    background-color: skyblue;
+}
+.circle{
+    background-color: white;
+    color: skyblue;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:hover{
+    border: 2px;
+    padding: 3px;
+    background-color: whitesmoke;
+    text-decoration: underline;
+    color: cadetblue;
+}
+
+
+.imggallery{
+    width:100%;
+    height: 40vh;
+   transition: all, 0.5s;
+}
+
+.imggallery:hover{
+
+    transform: scale(1.1, 1.1);
+
+}
+
+.product{
+    transition: all, 0.5s;
+}
+
+.product:hover{
+
+ transform:rotateX(30deg);
+
+}
+.main1img{
+    background-image: url(image/main1img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: skyblue;
+ 
+}
+
+.main2img{
+    background-image: url(image/footerbg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+    background-color: skyblue;
+ 
+}
+
+.footer h6, p{
+
+    color:skyblue; opacity: 0.7;
+}
