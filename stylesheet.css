@@ -11,6 +11,7 @@ body{
 
 * {
     box-sizing: border-box;
+    
 }
 
 img{
@@ -19,7 +20,7 @@ img{
 }
 .header{
     background-image: url(image/bg1.jpg);
-    opacity: 0.6;    
+    
     background-position: center;
     background-size: cover;
     background-color: skyblue;
